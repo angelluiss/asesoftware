@@ -33,18 +33,17 @@ Este proyecto sigue una arquitectura modular y bien organizada que separa las re
   - `GenericTextField.swift`: Campo de texto genérico reutilizable.
 
 - **Helpers**: Funciones de utilidad y extensiones que se utilizan en todo el proyecto.
-  - `NetworkHelper.swift`: Funciones de red comunes.
-  - `StringExtensions.swift`: Extensiones para manipulación de cadenas de texto.
+
 
 - **Resources**: Archivos de recursos, como colores, imágenes y cadenas localizadas.
   - `Colors.swift`: Definiciones de colores utilizados en la aplicación.
-  - `Localizable.strings`: Archivos de cadenas de texto localizadas.
+
 
 ### System
 
 - Archivos principales de la aplicación.
   - `App.swift`: Punto de entrada principal de la aplicación.
-  - `AppDelegate.swift`: Configuración de la aplicación.
+
 
 ### Features
 
@@ -62,12 +61,11 @@ Este proyecto sigue una arquitectura modular y bien organizada que separa las re
 
 - **Model**:
   - **DTO**: Clases de transferencia de datos que mapean las respuestas de la API.
-    - `MovieDTO.swift`: DTO para las respuestas de la API de películas.
+    - `PopularResponse.swift`: DTO para las respuestas de la API de películas.
   - **Domain**: Modelos de dominio que representan las entidades principales.
     - `Movie.swift`: Modelo de dominio para una película.
 
 - **UI**: Vistas y componentes de la interfaz de usuario.
   - `MovieListView.swift`: Vista principal de la lista de películas.
-  - `MovieDetailView.swift`: Vista de detalles de una película.
 
 
